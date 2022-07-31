@@ -8,7 +8,6 @@ nums.reverse()
 
 mul = M // K
 re = M % K
-result = nums[0]*mul*K + nums[1]*re
+result = nums[0] * mul * K + nums[1] * re
 
 print(result)
-
