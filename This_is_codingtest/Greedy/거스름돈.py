@@ -3,7 +3,7 @@ def solution(money):
    N = money
    cnt = 0
    remain = N
-   for i in coin :
+   for i in coin:
        cnt += remain // i
        remain = remain % i
    print(cnt)
